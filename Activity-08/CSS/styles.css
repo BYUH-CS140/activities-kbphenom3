@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* imported a custom font from google */
+ @font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/orbitron/v31/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyGy6BoWgz.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+/*  */
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333;
+  padding: 20px;
+  line-height: 2rem;
+}
+
+#page-header {
+  background-image: url("pattern-bg.png");
+  background-size: cover;
+  color: beige;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+}
+
+/* Navigation list container */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+/* List items inside nav */
+.nav-list > li {
+  padding: 0.25rem 0.75rem;
+  background-color: rgba(0, 0, 128, 0.7);
+  border-radius: 4px;
+}
+
+/* Anchor links inside nav list */
+.nav-list a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  display: block;
+}
+
+/* Hover effect for nav links */
+.nav-list a:hover {
+  color: #333333;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 2rem;
+  margin-bottom: 20px;
+}
+
+/*flex creates box, justify content select item within flex to center, flex direction assorts item into a column*/ 
+header {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+header nav,
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.dos h2 {
+  color: green;
+  font-family: 'Orbitron', sans-serif;
+  line-height: 2rem;
+}
+
+.donts h2 {
+  color: red;
+  font-family: 'Orbitron', sans-serif;
+  line-height: 2rem;
+}
+
+.video-section {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 5rem;
+}
+
+.resources {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 6px;
+  width: 60%;
+}
+
+.resources li {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: beige;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+img {
+  border: 3px solid black;
+}
+
+
