@@ -27,7 +27,6 @@ body {
 }
 
 #page-header {
-  background-image: url("pattern-bg.png");
   background-size: cover;
   color: beige;
   padding: 1rem;
